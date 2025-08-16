@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Clock, MessageCircle } from 'lucide-react';
+import { Clock, Mail, MapPin, MessageCircle, Phone } from 'lucide-react';
+import React from 'react';
 
 const Contact: React.FC = () => {
   const offices = [
@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
       email: "jakarta@lpkgrandwisata.id"
     },
     {
-      city: "Surabaya", 
+      city: "Surabaya",
       address: "Jl. Pemuda No. 45, Surabaya 60271",
       phone: "031-8765-4321",
       email: "surabaya@lpkgrandwisata.id"
@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
                   <Phone className="h-5 w-5 text-blue-600 mr-3" />
                   <div>
                     <p className="font-medium">Hotline 24/7</p>
-                    <p>083823960174 (WhatsApp)</p>
+                    <p>6285157606767 (WhatsApp)</p>
                   </div>
                 </div>
                 <div className="flex items-center text-gray-600">
@@ -116,16 +116,16 @@ const Contact: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <h4 className="text-xl font-bold text-gray-900 mb-4">Hubungi Kami</h4>
               <p className="text-gray-600 mb-4">
                 Untuk konsultasi gratis dan informasi program, hubungi kami melalui WhatsApp atau kunjungi kantor terdekat.
               </p>
-              <button 
+              <button
                 onClick={() => {
                   const message = encodeURIComponent("Halo! Saya tertarik dengan program pelatihan di LPK Grand Wisata. Bisakah Anda memberikan informasi lebih lanjut?");
-                  window.open(`https://wa.me/083823960174?text=${message}`, '_blank');
+                  window.open(`https://wa.me/6285157606767?text=${message}`, '_blank');
                 }}
                 className="w-full bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-600 transition-all flex items-center justify-center"
               >

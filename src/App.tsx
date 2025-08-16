@@ -1,11 +1,10 @@
-import React from 'react';
+import Blog from './components/Blog';
+import Contact from './components/Contact';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Programs from './components/Programs';
 import International from './components/International';
-import Blog from './components/Blog';
+import Programs from './components/Programs';
 import Testimonials from './components/Testimonials';
-import Contact from './components/Contact';
 import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
         <Contact />
       </main>
       <WhatsAppButton />
-      
+
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,11 +33,11 @@ function App() {
                 <span className="font-bold text-lg">LPK Grand Wisata</span>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Indonesia's premier job training institute connecting talented individuals 
+                Indonesia's premier job training institute connecting talented individuals
                 to opportunities worldwide since 2009.
               </p>
             </div>
-            
+
             <div>
               <h4 className="font-bold mb-4">Programs</h4>
               <ul className="space-y-2 text-sm text-gray-400">
@@ -48,7 +47,7 @@ function App() {
                 <li><a href="#" className="hover:text-white transition-colors">Technical & Engineering</a></li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="font-bold mb-4">Opportunities</h4>
               <ul className="space-y-2 text-sm text-gray-400">
@@ -58,18 +57,18 @@ function App() {
                 <li><a href="#" className="hover:text-white transition-colors">Visa Assistance</a></li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="font-bold mb-4">Contact</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li>083823960174</li>
+                <li>6285157606767</li>
                 <li>info@lpkgrandwisata.id</li>
                 <li>Jakarta • Surabaya • Medan</li>
                 <li>Mon-Sat: 8AM-8PM</li>
               </ul>
             </div>
           </div>
-          
+
           <div className="border-t border-gray-800 pt-8 mt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 text-sm">
